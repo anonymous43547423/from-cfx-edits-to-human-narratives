@@ -36,7 +36,7 @@ READABILITY_OUTPUT_DIR = Path("modernbert_readability")
 INTERACTION_OUTPUT_DIR = Path("modernbert_interaction")
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     """Parse command-line options for human-feedback classifier training."""
     parser = argparse.ArgumentParser(
         description="Train ModernBERT classifiers on human-labeled feedback datasets.",
@@ -54,12 +54,24 @@ def parse_args() -> argparse.Namespace:
         help="Path to the human-labeled interaction-match CSV.",
     )
     parser.add_argument(
+        "--readability-output-dir",
+        type=Path,
+        default=READABILITY_OUTPUT_DIR,
+        help="Directory where the readability classifier will be saved.",
+    )
+    parser.add_argument(
+        "--interaction-output-dir",
+        type=Path,
+        default=INTERACTION_OUTPUT_DIR,
+        help="Directory where the interaction-match classifier will be saved.",
+    )
+    parser.add_argument(
         "--log-level",
         choices=["CRITICAL", "ERROR", "WARNING", "INFO", "DEBUG"],
         default="INFO",
         help="Logging verbosity level (default: INFO).",
     )
-    return parser.parse_args()
+    return parser.parse_args(argv)
 
 
 def compute_metrics(eval_pred: tuple[np.ndarray, np.ndarray]) -> dict[str, float]:
@@ -199,27 +211,31 @@ def main() -> int:
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     collator = DataCollatorWithPadding(tokenizer)
 
-    LOGGER.info("Training readability classifier -> %s", READABILITY_OUTPUT_DIR)
+    LOGGER.info("Training readability classifier -> %s", args.readability_output_dir)
     train_model(
         df=readability_df,
         text_cols=["explanation_text"],
         label_col="overall",
-        output_dir=READABILITY_OUTPUT_DIR,
+        output_dir=args.readability_output_dir,
         tokenizer=tokenizer,
         collator=collator,
     )
 
-    LOGGER.info("Training interaction-match classifier -> %s", INTERACTION_OUTPUT_DIR)
+    LOGGER.info("Training interaction-match classifier -> %s", args.interaction_output_dir)
     train_model(
         df=interaction_df,
         text_cols=["explanation_text", "interaction_description"],
         label_col="score",
-        output_dir=INTERACTION_OUTPUT_DIR,
+        output_dir=args.interaction_output_dir,
         tokenizer=tokenizer,
         collator=collator,
     )
 
-    LOGGER.info("Saved models to %s and %s", READABILITY_OUTPUT_DIR, INTERACTION_OUTPUT_DIR)
+    LOGGER.info(
+        "Saved models to %s and %s",
+        args.readability_output_dir,
+        args.interaction_output_dir,
+    )
     return 0
 
 

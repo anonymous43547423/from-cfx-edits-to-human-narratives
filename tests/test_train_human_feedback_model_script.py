@@ -39,7 +39,33 @@ def test_parse_args_maps_paths(monkeypatch: Any, tmp_path: Path) -> None:
     args = script.parse_args()
     assert args.readability_human_dataset_path == readability_path
     assert args.interaction_match_human_dataset_path == interaction_path
+    assert args.readability_output_dir == script.READABILITY_OUTPUT_DIR
+    assert args.interaction_output_dir == script.INTERACTION_OUTPUT_DIR
     assert args.log_level == "INFO"
+
+
+def test_parse_args_maps_custom_output_dirs(tmp_path: Path) -> None:
+    """parse_args maps custom model output directories."""
+    readability_path = tmp_path / "readability.csv"
+    interaction_path = tmp_path / "interaction.csv"
+    readability_output_dir = tmp_path / "modernbert_readability_validation"
+    interaction_output_dir = tmp_path / "modernbert_interaction_validation"
+
+    args = script.parse_args(
+        [
+            "--readability-human-dataset-path",
+            str(readability_path),
+            "--interaction-match-human-dataset-path",
+            str(interaction_path),
+            "--readability-output-dir",
+            str(readability_output_dir),
+            "--interaction-output-dir",
+            str(interaction_output_dir),
+        ],
+    )
+
+    assert args.readability_output_dir == readability_output_dir
+    assert args.interaction_output_dir == interaction_output_dir
 
 
 def test_make_dataset_single_and_pair() -> None:
@@ -194,3 +220,52 @@ def test_main_trains_both_models(monkeypatch: Any, tmp_path: Path) -> None:
     assert interaction_call["text_cols"] == ["explanation_text", "interaction_description"]
     assert interaction_call["label_col"] == "score"
     assert interaction_call["output_dir"] == script.INTERACTION_OUTPUT_DIR
+
+
+def test_main_uses_custom_output_dirs(monkeypatch: Any, tmp_path: Path) -> None:
+    """Main forwards custom model output directories to training."""
+    readability_path = tmp_path / "readability.csv"
+    interaction_path = tmp_path / "interaction.csv"
+    readability_output_dir = tmp_path / "modernbert_readability_test"
+    interaction_output_dir = tmp_path / "modernbert_interaction_test"
+    monkeypatch.setattr(
+        "sys.argv",
+        [
+            "train_human_feedback_model.py",
+            "--readability-human-dataset-path",
+            str(readability_path),
+            "--interaction-match-human-dataset-path",
+            str(interaction_path),
+            "--readability-output-dir",
+            str(readability_output_dir),
+            "--interaction-output-dir",
+            str(interaction_output_dir),
+        ],
+    )
+
+    readability_df = pd.DataFrame({"explanation_text": ["a"], "overall": [1]})
+    interaction_df = pd.DataFrame(
+        {
+            "explanation_text": ["b"],
+            "interaction_description": ["{year=1990}"],
+            "score": [0],
+        },
+    )
+
+    train_calls: list[dict[str, Any]] = []
+
+    def _record_train_model(**kwargs: Any) -> MagicMock:
+        train_calls.append(kwargs)
+        return MagicMock()
+
+    with (
+        patch("scripts.train_human_feedback_model.pd.read_csv", side_effect=[readability_df, interaction_df]),
+        patch.object(script, "AutoTokenizer") as mock_tokenizer_cls,
+        patch.object(script, "DataCollatorWithPadding"),
+        patch.object(script, "train_model", side_effect=_record_train_model),
+    ):
+        mock_tokenizer_cls.from_pretrained.return_value = MagicMock()
+        assert script.main() == 0
+
+    assert train_calls[0]["output_dir"] == readability_output_dir
+    assert train_calls[1]["output_dir"] == interaction_output_dir

@@ -36,10 +36,10 @@ The validation split is used for model-selection and prompt-tuning workflows. Th
 - `python init_data.py`: download the required non-committed artifacts.
 - `./get_all_results.sh`: launcher for the main paper experiment grid. It runs both vanilla and DPO workflows for the seven CFX methods and three models as reported in the paper (Ministral 8B, Gemma 3 12B, Qwen3 8B).
 - `./get_smoke_results.sh`: quick smoke-run variant of the main grid for lightweight validation of the environment setup.
+- `./train_human_feedback_models.sh`: train the validation and test human-feedback classifier pairs used for local model selection and final reporting.
+- `./calculate_human_models_feedback.sh`: score `runs/` with the trained validation and test human-feedback models in the required order.
 - `./generate_latex_results_table.sh`: summarize `runs/` into the LaTeX table used in the paper.
 - `./gather_eval_datasets.sh`: export paired readability and interaction-match CSV datasets for manual annotation.
-- `./train_human_feedback_model.sh`: example wrapper for training validation or test human-feedback classifiers and saving them under split-specific output directories.
-- `./evaluate_llm_judge.sh`: benchmark an LLM judge on the committed test readability labels.
 
 Low-level entry points used by the main script:
 
@@ -47,6 +47,7 @@ Low-level entry points used by the main script:
 - `python scripts/run_dpo.py`: train one DPO model from two prepared dataset directories.
 - `python scripts/run_dpo_eval_sweep.py`: run a W&B sweep over repeated DPO-plus-eval trials.
 - `bash scripts/run_eval_eval_dpo_eval.sh`: orchestrate one train_a/train_b/DPO/eval workflow.
+- `python scripts/train_human_feedback_model.py`: train one readability classifier and one interaction-match classifier from a human-labeled dataset split.
 - `python -m scripts.calculate_human_model_feedback`: score run outputs with those classifiers.
 - `python scripts/generate_latex_results_table.py`: aggregate `runs/` into the LaTeX results table used in the paper.
 
@@ -74,48 +75,37 @@ USE_SWEEP=1 ENABLE_WANDB=1 ./get_all_results.sh
 
 Outputs are written under `runs/`, with separate experiment roots such as `runs/run_pipeline_*` and `runs/run_eval_eval_dpo_eval_*`. Each timestamped run directory contains a `run_summary.json` plus detailed Feather exports.
 
-To reproduce the paper table from those run directories, use `scripts/generate_latex_results_table.py`. It reads the run summaries plus human-feedback summaries, selects the validation-best DPO variant, and emits the LaTeX table corresponding to the reported metrics.
+The main paper table reports human-calibrated metrics. DPO optimization uses LLM judges, but the reported metrics come from separate ModernBERT classifiers trained on the committed human-labeled validation and test dataset splits.
 
-For DPO model selection, the best variant is selected with a human-feedback model trained on the validation human-labeled dataset, and the selected run is then reported with a human-feedback model trained on the test human-labeled dataset.
-
-To reproduce that selection/reporting flow locally, train one human-feedback model on the validation labels and one on the test labels, then score the `runs/` outputs separately for each split with `python -m scripts.calculate_human_model_feedback`. The example helpers `./train_human_feedback_model.sh` and `./evaluate_llm_judge.sh` cover the common local entrypoints.
-
-To benchmark the judge model against the test split of the human-labeled datasets:
+Train those human-feedback models with:
 
 ```bash
-./evaluate_llm_judge.sh
+./train_human_feedback_models.sh
 ```
 
-To build fresh human-annotation CSV datasets from the current `runs/` outputs:
+This helper trains and stores the `modernbert_readability_validation`, `modernbert_interaction_validation`, `modernbert_readability_test`, and `modernbert_interaction_test` models.
+
+Then score the run outputs with those models:
+
+```bash
+./calculate_human_models_feedback.sh
+```
+
+This helper first writes validation human-feedback summaries, then writes test human-feedback summaries. For sweep-based DPO experiments, as reported in the paper, the validation summaries select the best DPO sweep run, and the corresponding test summaries provide the reported human-feedback metrics for that selected run. When no sweep is present, the later table-generation step falls back to the latest non-sweep run.
+
+Finally, generate the LaTeX table:
+
+```bash
+./generate_latex_results_table.sh
+```
+
+To build fresh human-annotation CSV datasets from the current `runs/` outputs, which is useful for extending the labeled data but not required to reproduce the main table:
 
 ```bash
 ./gather_eval_datasets.sh
 ```
 
 This helper writes the paired CSV files under `runs/eval_datasets/`.
-
-To train split-specific human-feedback classifiers with the example wrapper:
-
-```bash
-./train_human_feedback_model.sh validation
-./train_human_feedback_model.sh test
-```
-
-This helper writes the models to `modernbert_readability_<split>` and `modernbert_interaction_<split>`.
-
-To reproduce the paper table from the produced run directories:
-
-```bash
-./generate_latex_results_table.sh
-```
-
-This helper writes `runs/main_results_table.tex`. You can also call `python scripts/generate_latex_results_table.py --outputs-dir runs` directly.
-
-When both validation and test human-feedback summaries are present, the table script uses validation human-feedback scores to choose the best DPO variant and test human-feedback scores for the displayed metrics.
-
-## Notes
-
-- Exact numbers may not match the paper bit-for-bit because LLM generation is not fully deterministic due to non-zero temperature.
 
 ## Development Checks
 
