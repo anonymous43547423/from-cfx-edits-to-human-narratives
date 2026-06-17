@@ -61,7 +61,7 @@ Run the main experiment sweep:
 
 By default this runs the experiment grid with fixed DPO hyperparameters and no W&B sweep.
 
-For the paper, this grid was actually executed as scheduled jobs on a GPU cluster with NVIDIA 40GB A100 GPUs, and the full run required many GPU hours. For a quick smoke run instead, use:
+For the paper, this grid was actually executed as scheduled jobs on a GPU cluster with NVIDIA 40GB A100 GPUs, and the full run required many GPU hours. For a quick smoke run (which uses tiny sample and batch sizes, short training runs, etc.) instead use:
 
 ```bash
 ./get_smoke_results.sh
