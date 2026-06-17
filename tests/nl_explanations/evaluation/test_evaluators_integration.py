@@ -136,8 +136,8 @@ class TestCFXMatchEvaluator:
         interaction_desc, messages = prompts[0]
         assert isinstance(interaction_desc, str)
         assert "movie_id" not in interaction_desc
-        assert "year=" in interaction_desc
-        assert 'genres="' in interaction_desc
+        assert interaction_desc.startswith("{")
+        assert interaction_desc.endswith("}")
         assert isinstance(messages, list)
         assert len(messages) == 2
 
@@ -214,8 +214,8 @@ class TestNonCFXMatchEvaluator:
         assert len(prompts) == 1
         interaction_desc, messages = prompts[0]
         assert "movie_id" not in interaction_desc
-        assert "year=" in interaction_desc
-        assert 'genres="' in interaction_desc
+        assert interaction_desc.startswith("{")
+        assert interaction_desc.endswith("}")
         assert len(messages) == 2
 
     def test_build_all_prompts_empty_interactions(self) -> None:
