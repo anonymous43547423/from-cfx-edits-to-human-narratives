@@ -1,0 +1,201 @@
+generation_feather_path,user_id,explanation_text,fluency,grammar,length,illustrativeness,naturalness,overall
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/sy8hn7mk/generation.feather,5385,"action, adventure, animation, children's, fantasy films from 1994",,,,,,0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/generation.feather,4996,dramas and romances from 1995-1998,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5000,older films featuring mystery or thriller genres,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/pkj2deac/generation.feather,5286,horror films before 2000,,,,,,0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,5224,drama films from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Qwen3-8B_dpo/2026-05-24T00:44:04+00:00/sweep/zkxf5ipv/generation.feather,5481,dramas and mysteries from 1967,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/iolc6bwa/generation.feather,5506,drama or comedy films from before 2000,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/7gad4bgt/generation.feather,5305,"dramas or comedies, 1940s-1990s",,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/pqlmhoov/generation.feather,5344,older films with diverse or missing year data,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/izi06is1/generation.feather,5358,"comedy, drama, romance films before 2000",,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/t7513lu7/generation.feather,5272,dramas or action/war films released before 2000,,,,,,0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,4987,"comedy, drama, thriller, war films before 2000",,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/8o28m1sk/generation.feather,5503,"dramas released in 1980, 1994, or 1998",,,,,,0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,4846,action and thriller films from 1990s,,,,,,1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,4953,comedies and dramas from 1990s,,,,,,1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,5104,drama films released in the late 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/2wppgtjb/generation.feather,5550,"comedy, romance films before 1997",,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/gzd4beq2/generation.feather,5615,comedy films before 1997,,,,,,0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/generation.feather,5011,drama films from 1980s and 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/fl3kxrxg/generation.feather,5615,comedy and drama films from 1995,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/cf2av7ee/generation.feather,5240,films with multiple genres released before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/fl3kxrxg/generation.feather,5376,comedy films before 1997,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/sy8hn7mk/generation.feather,5495,comedy films from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:18+00:00/sweep/8306e1n4/generation.feather,5293,drama or romance films from 1983 to 1998,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/444kbbza/generation.feather,5301,comedy or drama films released between 1974 and 1999,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5367,comedies released in the mid-to-late 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/cf2av7ee/generation.feather,5534,drama films released before 2000,,,,,,1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,5309,comedy films before 1996,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/444kbbza/generation.feather,5453,dramas released between 1986 and 1995,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/fl3kxrxg/generation.feather,5628,comedy films before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/gzd4beq2/generation.feather,5289,drama films before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/nje8pjlk/generation.feather,5380,comedies and dramas from 1995,,,,,,1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,5059,comedy films before 1998,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/444kbbza/generation.feather,5410,drama or horror films from 1983 to 1999,,,,,,1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,4874,action and comedy films from 1990s,,,,,,1
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/generation.feather,4931,dramas and comedies from 1998,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/36kempre/generation.feather,5239,cFX drama films before 1997,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/8o28m1sk/generation.feather,5584,thriller or mystery films from 1944-1999,,,,,,0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,4891,documentaries from 1998,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/ri18x4hp/generation.feather,5508,action or comedy from 1970s to 1990s,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/w98vd6ef/generation.feather,5501,"drama films, often with other genres",,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/w7ojq97h/generation.feather,5261,comedies and dramas from 1994 to 1996,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/xrvob64g/generation.feather,5404,comedies or thrillers from the late 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/xrvob64g/generation.feather,5344,films with drama or comedy genres,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/66qjnrbb/generation.feather,5352,horror or drama films before 2000,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5042,thrillers or dramas from the late 1990s,,,,,,1
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/generation.feather,5229,comedies from 1932 to 1998,,,,,,0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,4984,dramas released in the mid-to-late 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/4fe3fsol/generation.feather,5313,crime or drama films from the mid-nineties,,,,,,1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,4917,thriller or drama films from 1990s,,,,,,1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,4947,comedies and dramas from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/qlocgqdt/generation.feather,5386,comedy and drama films before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/71qp7pib/generation.feather,5376,"comedy, musical, sci-fi, action, crime, adventure",,,,,,0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,4898,comedy films from 1995,,,,,,1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,5021,drama films released between 1974 and 1998,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/izi06is1/generation.feather,5286,comedy films before 2000,,,,,,0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,4967,action and comedy films from 1990s,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5256,dramas and comedies from the 1970s and 1980s,,,,,,1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,5038,comedies from 1994,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/gzd4beq2/generation.feather,5589,"comedy, drama films from 1996",,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/jofw5so6/generation.feather,5277,dramas and horrors from 1985-1997,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Qwen3-8B_dpo/2026-05-24T00:44:04+00:00/sweep/n0o5waqr/generation.feather,5496,dramas and thrillers from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/cf2av7ee/generation.feather,5236,thriller or children's films from the 1990s,,,,,,1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,5030,comedy films before 1996,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/ry812uw6/generation.feather,5448,comedy films before 1997,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/dvpmwezh/generation.feather,5615,comedy films from late 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/scnl2w28/generation.feather,5401,romantic comedies and dramas from 1932 to 1999,,,,,,0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,4852,"comedy, romance films before 2000",,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/3t7iw0fb/generation.feather,5353,"comedy, romance, action, sci-fi",,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:18+00:00/sweep/en8fsedc/generation.feather,5569,dram action com or drm film 1995-1998,,,,,,0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,5240,comedy films from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/sy8hn7mk/generation.feather,5474,thrillers and comedies from 1990s,,,,,,1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,5040,dramas and thrillers from 1990s,,,,,,1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,4862,cFX genre patterns,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/pkj2deac/generation.feather,5469,"dramas and comedies from the 1960s, 70s, and 90s",,,,,,0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/generation.feather,5126,drama films from 1994 to 1997,,,,,,1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,5320,comedy films before 1997,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/66qjnrbb/generation.feather,5387,older films with multiple genres,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/cf2av7ee/generation.feather,5543,classic comedy or drama films released before 1999,,,,,,1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,5099,dramas and action films from 1992-1996,,,,,,1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,4982,comedy films before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/scnl2w28/generation.feather,5515,comedy and action/drama films from 1950s to 1990s,,,,,,0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,5256,dramas or comedies from the 1970s and 1980s,,,,,,1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,4843,"comedy, romance, crime, thriller from 1998",,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/71qp7pib/generation.feather,5315,"action, Adventure, Crime, Drama (pre-2000)",,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/36kempre/generation.feather,5474,cFX movies by year and genre,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/444kbbza/generation.feather,5494,"horror, comedy, or drama films from 1964 to 1999",,,,,,1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,5127,romance films before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/wx12lple/generation.feather,5596,"action, drama, thriller, horror films from 1984-1999",,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:18+00:00/sweep/r5jz3012/generation.feather,5351,drama films from 1990s,,,,,,1
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/generation.feather,5141,comedy and drama films from 1995,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/cf2av7ee/generation.feather,5374,drama or war films released between 1939 and 1995,,,,,,0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,5120,adventure films from 1990s,,,,,,1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,5235,comedy films from the 1980s and 1960s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Qwen3-8B_dpo/2026-05-24T00:44:04+00:00/sweep/zkxf5ipv/generation.feather,5386,comedies and dramas from 1993-1997,,,,,,1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,5304,comedy films from 1995,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/w7ojq97h/generation.feather,5408,action adventure sci-fi thrillers from 1980s,,,,,,0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,4871,"comedy, drama, western, horror",,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/rz02164r/generation.feather,5261,comedy and drama films released before 2000,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/7gad4bgt/generation.feather,5353,"dramas or comedies, 1937-1999",,,,,,0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,5012,"action, adventure, comedy, drama films from 1980s to 1990s",,,,,,0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,4912,films with documentary or comedy genres,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5312,comedy films from the 1990s,,,,,,1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,4972,westerns and thrillers from 1990s,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5126,dramas and comedies released before 2000,,,,,,1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,5247,"comedy, drama films before 2000",,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/66qjnrbb/generation.feather,5585,films with drama or romance genres before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/qlocgqdt/generation.feather,5611,"comedy, drama, romance (from 1985-2000)",,,,,,0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5141,drama films released in the late 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/nje8pjlk/generation.feather,5587,comedies and dramas from 1995-1998,,,,,,1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,5108,drama films from 1980s and 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/t7513lu7/generation.feather,5258,sci-fi or comedy from 1973 or 1998,,,,,,0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,5029,comedy films before 1992,,,,,,0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,5036,dramas and thrillers from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/iolc6bwa/generation.feather,5376,sci-fi or animation films from before 1993,,,,,,1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,5349,drama films from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/7gad4bgt/generation.feather,5621,action or horror films from 1969-1998,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/gn5mdlfm/generation.feather,5585,romance and drama films before 1997,,,,,,1
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/generation.feather,4856,comedies from 1993 to 1998,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5411,films with multiple genres before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/pkj2deac/generation.feather,5402,dramas released in the mid to late 1990s,,,,,,1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,4846,"action, sci-fi, thriller films before 2000",,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Qwen3-8B_dpo/2026-05-24T00:44:04+00:00/sweep/n0o5waqr/generation.feather,5396,dramas and crimes from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/wx12lple/generation.feather,5568,drama or war films from 1930s-1990s,,,,,,0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/generation.feather,5094,drama films from 1930s to 1990s,,,,,,0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,5212,drama films before 1997,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:18+00:00/sweep/zu6y1o6w/generation.feather,5299,drama and comedy films from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/71qp7pib/generation.feather,5572,romances and/or dramas before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/36kempre/generation.feather,5326,war and drama films before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/tn6c4h5l/generation.feather,5632,cFX interactions with year nan,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/4fe3fsol/generation.feather,5474,films released in the 1990s with multiple genres,,,,,,0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,5073,comedies and dramas from 1980s to 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/sy8hn7mk/generation.feather,5500,comedy and drama films from 1960s to 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/15t1b5j9/generation.feather,5537,comedy films from the mid to late 1990s,,,,,,1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,5151,romance and crime films from 1998,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5160,thrillers or dramas from the 1990s,,,,,,1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,4999,"romance, comedy, documentary, animation, children's, drama, thriller from late 80s to early 2000s",,,,,,0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5226,films with comedy and drama genres,,,,,,1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,5121,comedies and dramas from 1995,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/scnl2w28/generation.feather,5370,"comedy, thriller, horror, sci-fi, drama films from 1960s to 1990s",,,,,,0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,5330,drama or war films from the 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/nje8pjlk/generation.feather,5507,romance or comedy films from 1990s,,,,,,1
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/generation.feather,4954,action and drama films from 1985 to 1995,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,4990,dramas released in the late 1990s,,,,,,1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,5047,comedy films from 1995-1997,,,,,,1
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/generation.feather,5135,comedies and dramas from 1995,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/scnl2w28/generation.feather,5569,comedy and thriller films from 1980s to 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:18+00:00/sweep/4lmaueor/generation.feather,5400,horror films from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:18+00:00/sweep/8306e1n4/generation.feather,5559,drama films from 1932 to 1998,,,,,,0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,5411,"comedy, drama films after 1990",,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/t7513lu7/generation.feather,5557,dramas or comedies released between 1990-2000,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/fl3kxrxg/generation.feather,5231,"comedy, drama, romance films before 2000",,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:18+00:00/sweep/en8fsedc/generation.feather,5320,dramatic or thrilling films released in the 1950-1999 decade,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/8o28m1sk/generation.feather,5257,dramas and thrillers from 1953 to 1998,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/dytsy779/generation.feather,5327,dramas released before 2000,,,,,,1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,5153,drama films from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/395l6oxm/generation.feather,5449,thrillers or action films before 2000,,,,,,0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,5138,drama films from 1930s to 1990s,,,,,,0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,4939,comedy films from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/nje8pjlk/generation.feather,5455,comedies and dramas from 1995,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/ry812uw6/generation.feather,5476,"comedies from 1988, 1993, 1963, 1994, 1995, 1980, 1997",,,,,,0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,5165,comedy films from 1930s and 1940s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/395l6oxm/generation.feather,5431,comedy or musical films before 2000,,,,,,0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/generation.feather,5109,comedy films from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:18+00:00/sweep/8306e1n4/generation.feather,5255,romance or drama films from 1954 to 1999,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/gzd4beq2/generation.feather,5538,children's drama before 1997,,,,,,0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/generation.feather,5122,dramas and thrillers from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/ri18x4hp/generation.feather,5324,romance or action/adventure from 1994-1998,,,,,,1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,5342,action and Drama films before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/w98vd6ef/generation.feather,5363,drama films before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:04+00:00/sweep/scnl2w28/generation.feather,5589,"horror, romance, drama, comedy films from 1932 to 1996",,,,,,0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/generation.feather,5100,comedies from 1982 to 1997,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/cf2av7ee/generation.feather,5444,drama or documentary films released in the 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/w7ojq97h/generation.feather,5450,dramas and thrillers from 1990s,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/444kbbza/generation.feather,5270,horror or drama or comedy films from 1942-1996,,,,,,0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5341,adventure or drama films before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/15t1b5j9/generation.feather,5520,"adventure, fantasy, or drama films before 1995",,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/8o28m1sk/generation.feather,5337,comedy or drama films from 1994-1999,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/pqlmhoov/generation.feather,5602,drama films released before 1995,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Qwen3-8B_dpo/2026-05-24T00:44:17+00:00/sweep/jofw5so6/generation.feather,5238,dramas and comedies from 1980s to 1990s,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5017,films with multiple genres before 2000,,,,,,0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,4895,"crime, drama, or horror films from the 1990s",,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/15t1b5j9/generation.feather,5553,films with thriller genre before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_Ministral-8B-Instruct-2410_dpo/2026-05-24T00:44:18+00:00/sweep/en8fsedc/generation.feather,5358,action or adventure films released in the 1990-1999 decade,,,,,,0
+outputs/run_eval_eval_dpo_eval_accent_gemma-3-12b-it_dpo/2026-05-24T00:44:18+00:00/sweep/w98vd6ef/generation.feather,5599,comedies from the mid to late 1990s,,,,,,1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,5400,horror films from late 1990s,,,,,,1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,4987,thrillers and dramas from the 1990s,,,,,,1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,5131,older musicals and war dramas,,,,,,1
+outputs/run_eval_eval_dpo_eval_accent_Phi-4-mini-instruct_dpo/2026-05-24T00:44:18+00:00/sweep/gzd4beq2/generation.feather,5321,"comedy, romance films after 1993",,,,,,0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/generation.feather,4970,drama films from 1980s and 1990s,,,,,,1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/generation.feather,5351,comedy or drama films from the 1990s,,,,,,1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/generation.feather,5186,cFX genre combinations from 1990s,,,,,,0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/generation.feather,5122,"action, thriller films from 1990s",,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_Qwen3-8B_dpo/2026-05-24T00:44:04+00:00/sweep/p5ns6fhi/generation.feather,5252,dramas and comedies from 1973-1998,,,,,,1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,5005,documentaries and dramas from 1960s and 1970s,,,,,,1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/generation.feather,4967,drama films released between 1991 and 1996,,,,,,1
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/generation.feather,4855,comedies and dramas from 1995,,,,,,1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/generation.feather,5136,drama films from 1940s and 1930s,,,,,,1
+outputs/run_eval_eval_dpo_eval_spinrec_Phi-4-mini-instruct_dpo/2026-05-24T00:44:08+00:00/sweep/gn5mdlfm/generation.feather,5344,dramas before 2000,,,,,,0
+outputs/run_eval_eval_dpo_eval_spinrec_gemma-3-12b-it_dpo/2026-05-24T00:44:08+00:00/sweep/15t1b5j9/generation.feather,5593,dramas and comedies released between 1979 and 1999,,,,,,1

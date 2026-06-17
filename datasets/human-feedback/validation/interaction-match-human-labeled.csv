@@ -1,0 +1,201 @@
+match_details_feather_path,user_id,interaction_id,explanation_text,interaction_description,score
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,4846,22420,"action, sci-fi, thriller films before 2000","{year=1987, genres=""Action""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,5204,7784,dramas and comedies from the 1990s,"{year=1988, genres=""Horror""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/cfx_match_details.feather,5337,18705,comedy films before 1997,"{year=1983, genres=""Comedy""}",1
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/cfx_match_details.feather,5240,5904,drama films from 1947 to 1998,{},0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,5275,16271,comedy films before 1995,"{year=1989, genres=""Drama""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,4939,16420,dramas and romances from the mid-1990s,"{year=1996, genres=""Drama, War""}",1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5109,2668,comedy or adventure films from the 1990s,"{year=1954, genres=""Comedy, Romance""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5135,11320,comedies and dramas from 1995,"{year=1950, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5368,11037,drama films from 1970s to 1990s,"{year=1940, genres=""Animation, Children's, Comedy, Musical""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5278,4508,drama films released before 2000,"{year=1996, genres=""Drama, War""}",1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,5022,7930,"comedy, drama, action, adventure, animation, children's, fantasy from 1994","{year=1953, genres=""Film-Noir""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5351,5694,comedy or drama films from the 1990s,"{year=1998, genres=""Action, Crime, Romance""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/cfx_match_details.feather,4925,1525,comedy and drama films from 1990s,"{year=1999, genres=""Comedy, Romance""}",1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5146,5989,dramas and thrillers from 1994,"{year=1994, genres=""Documentary""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5155,5790,comedies and dramas from the 1990s,"{year=1991, genres=""Comedy, War""}",1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5120,16025,dramas and adventures from 1980s to 1997,"{year=1999, genres=""Action, Thriller""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/cfx_match_details.feather,4914,6985,dramas and comedies from 1994-1998,"{year=1996, genres=""Action, Crime""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,4960,8451,older movies with single genre focus,"{year=1996, genres=""Animation, Children's, Comedy""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/cfx_match_details.feather,4855,20770,comedy films before 1997,"{year=1997, genres=""Drama""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,4987,14497,thrillers and dramas from the 1990s,"{year=1940, genres=""Comedy, Romance""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5399,22234,thrillers and documentaries from 1980s and 1990s,"{year=1996, genres=""Animation, Children's, Comedy""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,4936,5504,comedy and drama films from 1930s to 1990s,"{year=1997, genres=""Drama""}",1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/cfx_match_details.feather,5308,20495,horror and sci-fi films from 1980s and 1990s,"{year=1993, genres=""Drama""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,4906,21594,films with comedy or drama genres,"{year=1991, genres=""Comedy""}",1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,5393,11847,comedy films before 1996,"{year=1996, genres=""Drama""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/cfx_match_details.feather,5350,10437,action and drama films from 1980s and 1990s,"{year=1980, genres=""Drama""}",1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5048,15822,films with comedy and drama genres,"{year=1994, genres=""Horror""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/cfx_match_details.feather,5044,26148,dramas from 1995 to 1997,"{year=1991, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5030,14706,drama films from 1960s and 1990s,"{year=1932, genres=""Comedy, Romance""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,5308,20736,cFX genre combinations from 1995,"{year=1988, genres=""Drama, Romance""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,5201,22868,drama films released before 1999,"{year=1974, genres=""Adventure, Children's, Comedy""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5278,4572,drama films from 1950s to 1990s,"{year=1966, genres=""Drama""}",1
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/cfx_match_details.feather,4942,17329,thrillers and dramas from 1997,"{year=1995, genres=""Musical""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/cfx_match_details.feather,5231,24165,dramas and comedies from the 1990s,"{year=1966, genres=""Drama""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,4970,21316,comedy films before 1997,"{year=1935, genres=""Horror""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5015,8371,adventure films released before 1998,"{year=1995, genres=""Thriller""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,5019,20171,comedies from 1997 and 1998,"{year=1969, genres=""Thriller""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/cfx_match_details.feather,5308,20175,adventure and drama films from 1990s,"{year=1985, genres=""Adventure, Fantasy, Romance""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/cfx_match_details.feather,4991,11272,dramas and comedies from 1994-1996,"{year=1986, genres=""Comedy""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5021,7526,drama films released between 1974 and 1998,"{year=1998, genres=""Documentary""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5198,4501,action or comedy films from 1980s to 1996,"{year=1992, genres=""Comedy, Drama, Romance""}",1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5008,7031,drama films released in the 1990s,"{year=1996, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,4851,7461,comedy and drama films from 1990s,"{year=1971, genres=""Adventure, Children's, Musical""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5021,2041,dramas and thrillers from 1990s,"{year=1996, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/cfx_match_details.feather,5017,4451,comedy films before 2000,"{year=1992, genres=""Adventure, Romance, Sci-Fi""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5147,13860,comedy or thriller films from the 1990s,"{year=1974, genres=""Adventure, Children's, Comedy""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/cfx_match_details.feather,5026,27325,thriller or drama films from 1993-1997,"{year=1997, genres=""Thriller""}",1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/cfx_match_details.feather,4954,19253,comedy films before 1995,"{year=1922, genres=""Horror""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5097,14567,drama films released in the 1990s,"{year=1999, genres=""Comedy, Drama""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,5235,20667,comedy films from the 1980s and 1960s,"{year=1999, genres=""Animation, Comedy""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5206,13449,comedy and drama films from 1998,"{year=1994, genres=""Comedy, Romance""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,4976,8086,romantic comedies from 1990s,"{year=1989, genres=""Action, Adventure, Drama""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/cfx_match_details.feather,4833,23434,drama films from 1996,"{year=1994, genres=""Action, Adventure, Sci-Fi""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/cfx_match_details.feather,5178,3835,comedy films from 1990s and early 1980s,"{year=1981, genres=""Animation, Children's""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/cfx_match_details.feather,4898,20093,comedies or dramas released before 2000,"{year=1932, genres=""Comedy, Romance""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5320,686,films with multiple genres before 2000,"{year=1998, genres=""Drama, Romance""}",1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,4993,8136,comedy films before 1996,"{year=1957, genres=""Comedy, Musical""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5044,11716,comedies and dramas from the mid to late 1990s,"{year=1994, genres=""Drama""}",1
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/cfx_match_details.feather,5144,7786,drama films from 1990s,"{year=1998, genres=""Drama""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,4846,22487,"action, sci-fi, thriller films before 2000","{year=1998, genres=""Adventure, Sci-Fi, Thriller""}",1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5025,21600,comedies from 1996 and 1997,"{year=1991, genres=""Drama""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5272,3529,drama films from 1970s to 1990s,"{year=1989, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5147,14148,romantic comedies from 1990s,"{year=1957, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5175,1111,dramas released before 2000,"{year=1963, genres=""Comedy, Mystery, Romance, Thriller""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5108,2972,drama films from 1980s and 1990s,"{year=1997, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5375,16337,thrillers and dramas from 1990s,"{year=1986, genres=""Drama, War""}",1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/cfx_match_details.feather,5211,1807,comedy films from 1994,"{year=1996, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5189,18671,comedies from 1990s and early 1990s,"{year=1986, genres=""Horror, Sci-Fi""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,4936,5543,films with comedy or documentary genres,"{year=1989, genres=""Animation, Children's""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/cfx_match_details.feather,5424,13395,"comedy, drama films before 1997","{year=1999, genres=""Drama""}",1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5247,19243,drama films from 1970s and 1990s,"{year=1995, genres=""Documentary""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/cfx_match_details.feather,5011,11331,drama films from 1980s and 1990s,"{year=1995, genres=""Action, Crime, Thriller""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/cfx_match_details.feather,5016,13631,documentaries and action films from 1990s,"{year=1995, genres=""Animation, Children's, Comedy""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5229,26880,comedies and dramas from 1994-1996,"{year=1990, genres=""Action, Drama, Romance""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/cfx_match_details.feather,4909,26905,comedies and dramas from 1990s,"{year=1996, genres=""Action, Crime""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,5132,8962,comedy films from 1995,"{year=1975, genres=""Drama""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,5233,274,comedy films before 1990,"{year=1998, genres=""Drama""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5155,19120,comedies from 1980s to 1996,"{year=1932, genres=""Comedy, Romance""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/cfx_match_details.feather,5008,6826,drama films released in the 1990s,"{year=1995, genres=""Action, Drama, Thriller""}",1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,4855,20880,comedy films before 1997,"{year=1995, genres=""Thriller""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/cfx_match_details.feather,5007,22785,"comedy, drama films from 1994-1995","{year=1995, genres=""Drama""}",1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,4982,24079,comedy films before 1995,"{year=1974, genres=""Adventure, Children's, Comedy""}",1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5319,2767,films with drama or comedy genres,"{year=1990, genres=""Action, Drama, Romance""}",1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/cfx_match_details.feather,5166,5522,dramas and comedies from 1990s,"{year=1997, genres=""Comedy""}",1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,5314,8091,thrillers from early 1990s,"{year=1995, genres=""Documentary""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/cfx_match_details.feather,5228,12856,comedies from 1938 to 1996,"{year=1994, genres=""Comedy""}",1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5174,19326,dramas and thrillers from 1990s,"{year=1995, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,5042,22320,cFX genre combinations per year,"{year=1942, genres=""Thriller""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,4883,26348,comedy films from 1982 and 1996,"{year=1993, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,5011,11430,"comedy, drama films before 1998","{year=1996, genres=""Drama""}",1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5226,15234,films with comedy and drama genres,"{year=1967, genres=""Crime, Drama""}",1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/cfx_match_details.feather,4999,21376,thrillers and documentaries from 1994,"{year=1998, genres=""Romance""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,4909,26792,dramas and romances from 1990s,"{year=1995, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,4898,20145,comedies or dramas released before 2000,"{year=1947, genres=""Drama""}",1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/cfx_match_details.feather,5212,22339,action films from 1990s,"{year=1997, genres=""Action, Comedy""}",1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,5042,22273,cFX genre combinations per year,"{year=1998, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/cfx_match_details.feather,5109,2622,"adventure, children's, comedy films from 1970s to 1990s","{year=1996, genres=""Drama, Thriller""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5180,8221,comedy films from the 1990s,"{year=1996, genres=""Comedy, Drama""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,4959,12507,drama or comedy films from the 1990s,"{year=1964, genres=""Drama, Musical""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5341,17266,adventure films from 1990s,"{year=1998, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/cfx_match_details.feather,4840,12865,westerns and horror films from 1940s-1960s,"{year=1949, genres=""Adventure, Children's, Drama""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/cfx_match_details.feather,5163,2915,dramas and comedies from 1980s to 1996,"{year=1996, genres=""Crime""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/cfx_match_details.feather,4846,22431,action films from 1990s,"{year=1996, genres=""Animation""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,4833,23252,older films featuring drama or horror genres,"{year=1995, genres=""Comedy""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,5031,24146,dramas released between 1994 and 1999,"{year=1975, genres=""Drama, Musical""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5191,27407,comedies and dramas from 1990s,"{year=1967, genres=""Drama, Romance""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5097,17670,dramas and thrillers from 1994-1999,"{year=1997, genres=""Action, Sci-Fi, Thriller""}",1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/cfx_match_details.feather,5408,14615,"comedy, war films before 2000","{year=1997, genres=""Children's""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5373,7050,"adventure, drama, comedy films from 1990s","{year=1999, genres=""Animation, Comedy""}",1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,4986,7680,dramas from 1959 to 1995,"{year=1996, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,4855,3666,comedies and dramas from 1995,"{year=1996, genres=""Crime, Drama""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,5145,22821,"comedy, drama films before 1998","{year=1961, genres=""Horror""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5301,5616,comedy films from 1990s,"{year=1994, genres=""Comedy""}",1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5118,707,drama films released in the 1990s,"{year=1987, genres=""Horror""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,4862,18332,dramas with romance from the 1980s and 1990s,"{year=1994, genres=""Comedy""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5017,4479,classic dramas and comedies from 1950s to 1990s,"{year=1975, genres=""Children's, Comedy, Western""}",1
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,4997,10740,"action, adventure, sci-fi, thriller films from 1990s","{year=1984, genres=""Drama""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,4967,12583,comedy films before 2000,"{year=1995, genres=""Comedy, Drama""}",1
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5349,18594,romance and drama films from 1990s,"{year=1965, genres=""Thriller""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/cfx_match_details.feather,4936,5409,films with comedy or documentary genres,"{year=1992, genres=""Drama""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,5185,13453,"action, Crime films before 1997","{year=1999, genres=""Thriller""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5160,15351,dramas and romances from 1995-1998,"{year=1997, genres=""Action, Thriller, War""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,5147,13946,comedy or thriller films from the 1990s,"{year=1993, genres=""Action, Adventure, Children's, Sci-Fi""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/cfx_match_details.feather,5397,10140,comedy films before 2000,"{year=1997, genres=""Comedy""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5212,22059,dramas from the 1990s,"{year=1998, genres=""Drama""}",1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5056,20785,drama films from the 1980s and 1990s,"{year=1999, genres=""Comedy, Drama""}",1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,4993,8204,comedy or drama films from the 1990s,"{year=1995, genres=""Comedy""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5291,4970,dramas from the mid-1990s,"{year=1996, genres=""Comedy""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5399,22210,thrillers and documentaries from 1980s and 1990s,"{year=1996, genres=""Action""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5220,17928,comedies from 1980s and 1990s,"{year=1994, genres=""Comedy""}",1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5108,2927,drama films from 1980s and 1990s,"{year=1942, genres=""Drama, Romance, War""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5204,2180,dramas from 1986 to 1996,"{year=1994, genres=""Comedy, Drama""}",1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,5355,3591,comedy films before 1998,"{year=1995, genres=""Drama, Sci-Fi""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,4913,16135,crime films from 1998,"{year=1984, genres=""Comedy, War""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5327,7103,drama films from 1990s,"{year=1950, genres=""Sci-Fi""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,5042,21962,late 1990s drama or thriller films,"{year=1994, genres=""Comedy, Mystery, Romance""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/cfx_match_details.feather,5107,2224,films with multiple genres released in the 1990s,"{year=1995, genres=""Adventure, Children's, Fantasy""}",1
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5368,10943,drama films from 1970s to 1990s,"{year=1985, genres=""Adventure, Fantasy, Romance""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5169,21905,comedies and dramas from 1992-1998,"{year=1995, genres=""Drama, Romance""}",1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/cfx_match_details.feather,5109,924,thrillers and adventures from 1990s,"{year=1998, genres=""Horror, Thriller""}",1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/cfx_match_details.feather,5097,14509,comedy films before 1997,"{year=1999, genres=""Thriller""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5013,13674,crime and comedy films from 1990s,"{year=1996, genres=""Comedy, Romance""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,5144,7824,dramas from the late 1990s,"{year=1999, genres=""Drama, Thriller""}",1
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/cfx_match_details.feather,5373,7036,comedy films before 1997,"{year=1996, genres=""Adventure""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5229,54,comedy and drama films from 1994 to 1996,"{year=1990, genres=""Action, Drama, Romance""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/cfx_match_details.feather,5050,7153,"action, drama, comedy films from 1990s","{year=1998, genres=""Action, Comedy""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5391,3096,"dramas, often with romance or thriller","{year=1946, genres=""Crime, Drama""}",1
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/cfx_match_details.feather,5047,10112,drama films released in the 1990s,"{year=1993, genres=""War""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5163,2960,dramas and comedies from 1980s to 1996,"{year=1993, genres=""Thriller""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,5211,1883,comedy films from 1994,"{year=1987, genres=""Thriller""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5247,19236,drama films before 2000,"{year=1957, genres=""Comedy, Musical""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5363,16233,drama films from 1940s to 1990s,"{year=1993, genres=""Comedy, Romance""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,5118,675,drama films before 1997,"{year=1987, genres=""Comedy, Drama""}",1
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/cfx_match_details.feather,4883,26337,comedy films from 1982 and 1996,"{year=1997, genres=""Comedy""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5011,11447,drama films from 1980s and 1990s,"{year=1996, genres=""Crime""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/cfx_match_details.feather,5050,7153,"action, Drama films before 2000","{year=1998, genres=""Action, Comedy""}",1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5230,26455,crime and thriller films from 1990s,"{year=1972, genres=""Comedy""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/cfx_match_details.feather,4847,16497,comedies and dramas from 1990s,"{year=1986, genres=""Adventure, Children's, Fantasy""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/cfx_match_details.feather,4874,14656,films with drama or romance genres,"{year=1990, genres=""Horror""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5204,2540,dramas from 1992 to 1996,"{year=1968, genres=""Musical""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,4891,22342,comedy films before 2000,"{year=1982, genres=""Children's, Drama, Fantasy, Sci-Fi""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,4843,11205,comedy and thriller films from 1998,"{year=1998, genres=""Comedy""}",1
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/cfx_match_details.feather,4960,16445,thrillers and dramas from 1970s to 1990s,"{year=1961, genres=""Thriller""}",0
+outputs/run_pipeline_accent_gemma-3-12b-it/2026-05-10T00:23:06+00:00/non_cfx_match_details.feather,5018,17566,comedy films from the mid-to-late 1990s,"{year=1983, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/cfx_match_details.feather,5240,5951,comedy films from 1990s,"{year=1980, genres=""Comedy, Drama""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,4920,26192,dramas and action films from 1980s to 1996,"{year=2000, genres=""Comedy""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5200,898,dramas and comedies from 1995,{},0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/cfx_match_details.feather,5170,13047,dramas and comedies from 1960s to 1990s,"{year=1965, genres=""Musical""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,4929,11768,comedy films before 2000,"{year=1982, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,4889,16434,romance or comedy films from 1990s,"{year=1987, genres=""Drama, War""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,5375,16371,"comedy, romance, drama films before 2000","{year=1982, genres=""Drama""}",1
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5217,3204,comedies and dramas from 1990s,"{year=1992, genres=""Comedy""}",1
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5175,1312,drama films from 1980s and 1990s,"{year=1959, genres=""Drama, Thriller""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,4854,14847,dramas and thrillers from 1995-1998,"{year=1992, genres=""Children's, Comedy""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,5314,8105,thrillers from early 1990s,"{year=1974, genres=""Action, Drama""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,4904,148,dramas before 2000,"{year=1927, genres=""Drama""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/cfx_match_details.feather,5118,665,cFX genre combinations from 1990s,"{year=1966, genres=""Western""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/non_cfx_match_details.feather,5029,12262,comedy films before 1992,"{year=1959, genres=""Comedy, Crime""}",1
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,4961,17794,comedies and dramas from 1941-1995,"{year=1934, genres=""Comedy""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5334,9909,horror and sci-fi films from 1950s and 1980s,"{year=1999, genres=""Drama""}",0
+outputs/run_pipeline_spinrec_Phi-4-mini-instruct/2026-05-10T01:25:43+00:00/cfx_match_details.feather,4843,11198,"comedy, romance, crime, thriller from 1998","{year=1950, genres=""Sci-Fi""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,5217,3192,comedies and dramas from 1990s,"{year=1999, genres=""Drama, Romance""}",1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,4991,19699,"films with Animation, Children's, or Comedy genres","{year=1998, genres=""Comedy, Drama, Romance""}",1
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/non_cfx_match_details.feather,5016,13636,documentaries and action films from 1990s,"{year=1978, genres=""Comedy""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5132,8821,comedy and drama films from 1995 to 1999,"{year=1993, genres=""Drama, Mystery, Romance""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5000,18036,dramas and comedies from 1990s,"{year=1982, genres=""Action, Drama""}",0
+outputs/run_pipeline_spinrec_Ministral-8B-Instruct-2410/2026-05-10T00:22:29+00:00/cfx_match_details.feather,5240,5939,comedy and drama films from 1990s,"{year=1968, genres=""Musical""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/non_cfx_match_details.feather,5334,9890,horror and sci-fi films from 1950s and 1980s,"{year=1986, genres=""Comedy""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,4897,14251,drama films released between 1992 and 1996,"{year=1964, genres=""Action, Western""}",0
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,4868,19908,"action, Sci-Fi, Drama, Adventure, Animation","{year=1996, genres=""Action, Crime""}",1
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/non_cfx_match_details.feather,5170,11988,films with drama genre before 2000,"{year=1997, genres=""Comedy""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5220,17565,comedies from 1930s to 1980s,"{year=1930, genres=""Crime, Drama, Mystery""}",0
+outputs/run_pipeline_spinrec_gemma-3-12b-it/2026-05-10T00:25:03+00:00/cfx_match_details.feather,5255,5987,comedy or drama films from the 1990s,"{year=1995, genres=""Drama""}",1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/cfx_match_details.feather,4874,14370,comedy films before 1996,"{year=1993, genres=""Drama""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/non_cfx_match_details.feather,4877,15613,horror and thriller films from 1980s,"{year=1997, genres=""Action, Drama""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/non_cfx_match_details.feather,5094,14557,dramas and comedies from 1932-1992,"{year=1995, genres=""Action, Adventure, Thriller""}",0
+outputs/run_pipeline_accent_Qwen3-8B/2026-05-12T05:20:04+00:00/cfx_match_details.feather,5176,7857,dramas and action films from 1960s to 1990s,"{year=1969, genres=""Drama""}",1
+outputs/run_pipeline_accent_Phi-4-mini-instruct/2026-05-10T01:27:06+00:00/non_cfx_match_details.feather,5038,21091,comedies from 1994,"{year=1945, genres=""Drama, War""}",0
+outputs/run_pipeline_spinrec_Qwen3-8B/2026-05-12T05:23:17+00:00/cfx_match_details.feather,4992,25954,dramas and romances from 1990s,"{year=1955, genres=""Western""}",0
+outputs/run_pipeline_accent_Ministral-8B-Instruct-2410/2026-05-10T00:22:02+00:00/cfx_match_details.feather,4898,19788,comedy films from 1990s,"{year=1974, genres=""Adventure, Children's, Comedy""}",0

@@ -1,0 +1,108 @@
+[project]
+name = "recsys-nle"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python=">=3.11,<3.12"
+dependencies = [
+    "torch>=2.8.0,<2.12",
+    "triton>=3.4.0",
+    "kernels>=0.10.2",
+    "accelerate>=1.1.0",
+    "numpy<2.0.0",
+    "transformers>=4.57.3",
+    "datasets>=3.1.0",
+    "tqdm>=4.67.0",
+    "liger-kernel>=0.5.6",
+    "peft>=0.12.0",
+    "pandas>=2.3.3",
+    "scipy>=1.16.3",
+    "scikit-learn>=1.7.2",
+    "lime>=0.2.0.1",
+    "requests>=2.32.5",
+    "pydantic>=2.12.3",
+    "pydantic-settings>=2.11.0",
+    "implicit>=0.7.2",
+    "optuna>=4.6.0",
+    "ipynb>=0.5.1",
+    "json-repair>=0.54.2",
+    "trl>=0.27.0",
+    "wandb>=0.24.0",
+    "seaborn>=0.13.2",
+    "openai>=1.59.0",
+    "python-dotenv>=1.0.0",
+    "bitsandbytes>=0.44.0",
+    "mistral-common>=1.6.2",
+]
+
+[project.optional-dependencies]
+compile = ["flash-attn"]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "pytest>=8.3.3",
+    "mypy>=1.17.0",
+    "ruff>=0.12.4",
+    "types-requests>=2.32.4.20250913",
+    "pandas-stubs>=2.3.2.250926",
+    "scipy-stubs>=1.16.3.0",
+    "gdown>=5.2.0",
+    "py-spy>=0.4.1",
+]
+
+[tool.uv]
+package = true
+no-build-isolation-package = ["flash-attn"]
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu126", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[[tool.uv.dependency-metadata]]
+name = "flash-attn"
+version = "2.7.4.post1"
+
+[tool.setuptools]
+py-modules = ["recsys_nle"]
+
+[tool.ruff]
+exclude = ["notebooks", "recsys_nle/cf_explanations"]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D100", "D101", "D102", "D103", "D104", "D105", "D106", "D107", "UP035", "FBT001", "D203", "D213", "COM812", "G004", "PLR0913", "ERA001", "ANN002", "ANN003", "ANN401", "TD002", "TD003", "TD004", "N806", "T201", "FBT002", "FIX002", "TD005", "N803"]
+
+[tool.ruff.format]
+line-ending = "lf"
+
+[tool.mypy]
+strict = true
+exclude = "recsys_nle/cf_explanations"
+
+[[tool.mypy.overrides]]
+module = ["datasets.*", "transformers.*", "unsloth.*", "liger_kernel.*", "trl.*", "sklearn.inspection.*", "openai.*", "mistral_common.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["tqdm.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "recsys_nle.cf_explanations.*"
+ignore_errors = true
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+markers = [
+    "gpu: tests that require a CUDA GPU",
+    "hf_integration: tests that download/load real Hugging Face models (opt-in)",
+]
