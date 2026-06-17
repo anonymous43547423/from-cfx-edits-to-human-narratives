@@ -24,17 +24,18 @@ Some Hugging Face models used in this repository may require authentication and 
 
 Committed human labels live under `datasets/human-feedback/`:
 
-- `validation/readability-human-labeled.csv`: binary human judgments of overall linguistic quality.
-- `validation/interaction-match-human-labeled.csv`: binary human judgments of explanation/interaction match.
-- `test/readability-human-labeled.csv`: held-out readability labels.
-- `test/interaction-match-human-labeled.csv`: held-out interaction-match labels.
+- `validation/readability-human-labeled.csv`: binary human judgments of overall linguistic quality (validation split).
+- `validation/interaction-match-human-labeled.csv`: binary human judgments of explanation-interaction match (validation split).
+- `test/readability-human-labeled.csv`: binary human judgments of overall linguistic quality (test split).
+- `test/interaction-match-human-labeled.csv`: binary human judgments of explanation-interaction match (test split).
 
 The validation split is used for model-selection and prompt-tuning workflows. The test split is the held-out final evaluation set.
 
 ## Main Scripts
 
 - `python init_data.py`: download the required non-committed artifacts.
-- `./get_all_results.sh`: local batch launcher for the main paper experiment grid. It runs both vanilla and DPO workflows for the seven CFX methods and the three paper models (Ministral 8B, Gemma 3 12B, Qwen3 8B).
+- `./get_all_results.sh`: launcher for the main paper experiment grid. It runs both vanilla and DPO workflows for the seven CFX methods and three models as reported in the paper (Ministral 8B, Gemma 3 12B, Qwen3 8B).
+- `./get_smoke_results.sh`: quick smoke-run variant of the main grid for lightweight validation of the environment setup.
 - `./generate_latex_results_table.sh`: summarize `runs/` into the LaTeX table used in the paper.
 - `./gather_eval_datasets.sh`: export paired readability and interaction-match CSV datasets for manual annotation.
 - `./train_human_feedback_model.sh`: example wrapper for training validation or test human-feedback classifiers and saving them under split-specific output directories.
@@ -51,13 +52,19 @@ Low-level entry points used by the main script:
 
 ## Reproducing The Paper
 
-Run the main local experiment sweep:
+Run the main experiment sweep:
 
 ```bash
 ./get_all_results.sh
 ```
 
 By default this runs the experiment grid with fixed DPO hyperparameters and no W&B sweep.
+
+For the paper, this grid was actually executed as scheduled jobs on a GPU cluster with NVIDIA 40GB A100 GPUs, and the full run required many GPU hours. For a quick smoke run instead, use:
+
+```bash
+./get_smoke_results.sh
+```
 
 To run the W&B hyperparameter sweep used for DPO model selection, enable sweep mode:
 
@@ -73,7 +80,7 @@ For DPO model selection, the best variant is selected with a human-feedback mode
 
 To reproduce that selection/reporting flow locally, train one human-feedback model on the validation labels and one on the test labels, then score the `runs/` outputs separately for each split with `python -m scripts.calculate_human_model_feedback`. The example helpers `./train_human_feedback_model.sh` and `./evaluate_llm_judge.sh` cover the common local entrypoints.
 
-To benchmark the judge model against the committed test labels:
+To benchmark the judge model against the test split of the human-labeled datasets:
 
 ```bash
 ./evaluate_llm_judge.sh
@@ -108,8 +115,7 @@ When both validation and test human-feedback summaries are present, the table sc
 
 ## Notes
 
-- Exact numbers may not match the paper bit-for-bit because LLM generation is not fully deterministic.
-- Full reproduction is GPU-intensive.
+- Exact numbers may not match the paper bit-for-bit because LLM generation is not fully deterministic due to non-zero temperature.
 
 ## Development Checks
 
